@@ -1,7 +1,5 @@
 package com.altstronaut.hashtable
 
-import com.altstronaut.hastable.missingNumber
-
 fun isHappy(n: Int): Boolean {
     var myNum = n
     val set = mutableSetOf<Int>()
